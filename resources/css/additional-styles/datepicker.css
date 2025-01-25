@@ -1,0 +1,30 @@
+
+.duty-datepicker .react-datepicker__day--highlighted:not([aria-disabled=true]), 
+.duty-datepicker .react-datepicker__month-text--highlighted:not([aria-disabled=true]), 
+.duty-datepicker .react-datepicker__quarter-text--highlighted:not([aria-disabled=true]), 
+.duty-datepicker .react-datepicker__year-text--highlighted:not([aria-disabled=true]) {
+    @apply bg-blue-500 text-white rounded-full;
+}
+.duty-datepicker .react-datepicker {
+    @apply border-none bg-white;
+}
+
+.duty-datepicker{
+    @apply border-none flex items-center justify-center;
+}
+
+.duty-datepicker .react-datepicker__header {
+    @apply bg-white;
+}
+
+.duty-datepicker .react-datepicker__day-names{
+    @apply mt-4;
+}
+
+.duty-datepicker .react-datepicker__day-name{
+    @apply text-blue-500;
+}
+
+.duty-datepicker .react-datepicker__navigation--next .react-datepicker__navigation-icon--next {
+    @apply text-blue-500; 
+}
